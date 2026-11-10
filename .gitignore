@@ -1,0 +1,18 @@
+# Packages installed by npm
+node_modules/
+
+# Secrets and local settings: never push these
+.env
+
+# Database backups (they hold real data)
+database/backups/
+
+# Logs and system files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
